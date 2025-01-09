@@ -3,7 +3,7 @@ Contributors: Codemstory
 Donate link: http://www.codemshop.com/
 Tags: 웹사이트소유권인증, 구글 네이버 광고 전환 추적, 네이버 검색등록, 구글 검색 등록, 페이스북 픽셀
 Requires at least: 4.6.0
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: 1.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

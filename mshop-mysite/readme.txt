@@ -3,8 +3,8 @@ Contributors: Codemstory
 Donate link: http://www.codemshop.com/
 Tags: 웹사이트소유권인증, 구글 네이버 광고 전환 추적, 네이버 검색등록, 구글 검색 등록, 페이스북 픽셀
 Requires at least: 4.6.0
-Tested up to: 6.7
-Stable tag: 1.1.9
+Tested up to: 6.8
+Stable tag: 1.1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,48 +21,49 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 광고 매체에서 전달 해 주는 분석 스크립트를 어디에 어떻게 설치해야하는지 고민이시죠?
 워드프레스 구조에 익숙하지 않는 관리자 및 국내 광고대행사 에서도 광고 분석 스크립트 삽입에 어려움을 호소하고 있는데요. 코드엠샵 마이사이트 플러그인은 광고 매체에서 발급하는 아이디 또는 픽셀 값을 입력하여 광고 효과 분석 측정의 기초를 마련할 수 있습니다.
 
-플러그인 설치 영상 매뉴얼 : <a href="https://bit.ly/3z6En5x" target="_blank">https://bit.ly/3z6En5x</a>
-플러그인 텍스트 매뉴얼 : <a href="https://bit.ly/2XEKvVG" target="_blank">https://bit.ly/2XEKvVG</a>
+<a href="https://www.youtube.com/watch?v=6rHEHzz7MhY" target="_blank">마이사이트 플러그인 설치 영상 가이드 https://www.youtube.com/watch?v=6rHEHzz7MhY</a>
+<a href="https://www.codemshop.com/manual/docs/my-site/" target="_blank">마이사이트 플러그인 사용 가이드 https://www.codemshop.com/manual/docs/my-site/</a>
 
 [웹사이트 소유권 인증]
 - 검색 사이트에서 제공하는 HTML 태그를 복사하여 마이사이트 설정창에 붙여넣기하면 소유권인증 완료
-- 구글, 네이버, 빙 소유권 인증 가능
+- 구글, 네이버, 빙, 다음, 페이스북 소유권 인증 가능
 
 [광고 전환 추적]
 - 광고 매체에서 발급하는 아이디 또는 픽셀 값을 복사하여 마이사이트 설정창에 붙여넣기하면 광고 전환 추적 시작
 - 네이버 유입 + 전환추적 / 네이버 애널리틱스
-- 구글 전환 추적
-- 카카오 픽셀
-- 페이스북 픽셀
-- 다음 구매 전환
+- 구글 유입 + 전환추적
+- 카카오 픽셀 유입 + 전환추적
+- 페이스북 픽셀 유입 + 전환추적
+- 다음 유입 + 전환추적
 
 
 영문 매뉴얼
 
-Plugin installation video manual : <a href="https://bit.ly/3z6En5x" target="_blank">https://bit.ly/3z6En5x</a>
-Plugin installation text manual : <a href="https://bit.ly/2XEKvVG" target="_blank">https://bit.ly/2XEKvVG</a>
+The M-Shop MySite plugin, provided by CodeMShop for WordPress-based eCommerce sites, enables users to easily verify website ownership and install advertising conversion tracking codes—without any development knowledge required.
 
+Many site owners wonder why their websites aren’t appearing on Google or Naver after launching their WordPress site. Simply waiting won’t help—you must register your website with major search engines such as Google, Facebook, and Bing for it to be properly indexed. This process, often referred to as a “website birth registration,” is essentially done through website ownership verification.
 
-The Mshop MySite plugin provided by CodeMshop, a WordPress shopping mall, is a service that allows anyone without development knowledge to register website ownership verification and advertisement conversion tracking code on a search site.
+Additionally, if you're planning to run advertising campaigns after launching your site, tracking and analyzing their performance is essential. But many site managers and domestic ad agencies struggle with where and how to install analytics scripts provided by ad platforms—especially when they’re unfamiliar with the WordPress structure.
 
-After building a WordPress site, why is my site not searchable on Google or Naver? And there are people waiting. After creating a website, you must report the birth of the website to Google, Naver, and Bing in order to be exposed to search engines.
-Website birth registration can be processed as a confirmation of ownership verification of the website.
+That’s where the M-Shop MySite plugin comes in. By simply entering the advertising platform’s issued ID or pixel value into the plugin’s settings, you can establish a solid foundation for ad performance tracking.
 
-Also, if you are preparing for advertising marketing after opening a site, it is essential to measure and analyze advertising effectiveness before advertising execution, right?
-Are you worried about where and how to install the analysis script delivered by advertising media?
-Administrators who are not familiar with the WordPress structure and domestic advertising agencies are also complaining of difficulties in inserting the advertisement analysis script. Code M Shop MySite plugin can provide the basis for measuring advertising effectiveness by inputting IDs or pixel values ​​issued by advertising media.
+Plugin Installation Guide (Video)
+<a href="https://www.youtube.com/watch?v=6rHEHzz7MhY" target="_blank">https://www.youtube.com/watch?v=6rHEHzz7MhY</a>
+
+Plugin User Guide
+<a href="https://www.codemshop.com/manual/docs/my-site/" target="_blank">https://www.codemshop.com/manual/docs/my-site/</a>
 
 [Website Ownership Verification]
-- Copy the HTML tag provided by the search site and paste it into the My Site setting window to complete the ownership verification
-- Google, Naver, and Bing ownership verification possible
+- Copy the HTML tag provided by each search engine and paste it into the MySite plugin settings to complete verification.
+- Supported platforms: Google, Naver, Bing, Daum, Facebook
 
 [AD conversion tracking]
-- Copy the AD account ID or pixel value issued by the advertising medium and paste it into the My Site settings window to start tracking the conversion of the ad.
-- Naver Inflow + Conversion Tracking / Naver Analytics
-- Google Conversion Tracking
-- Kakao Pixel
-- Facebook pixel
-- Daum Purchase Conversion
+- Copy the ID or pixel value issued by the ad platform and paste it into the MySite plugin settings to begin conversion tracking.
+- Naver (Traffic + Conversion tracking / Naver Analytics)
+- Google (Traffic + Conversion tracking)
+- Kakao Pixel (Traffic + Conversion tracking)
+- Facebook Pixel (Traffic + Conversion tracking)
+- Daum (Traffic + Conversion tracking)
 
 
 
@@ -79,23 +80,23 @@ Administrators who are not familiar with the WordPress structure and domestic ad
 
 <웹사이트 소유권 HTML 발급하기>
 
-구글 : 구글 웹마스터도구 (https://www.google.com/webmasters)
-네이버 : 네이버 웹마스터도구 (http://webmastertool.naver.com)
+구글 서치 콘솔 <a href="https://search.google.com/search-console/" target="_blank">https://search.google.com/search-console/</a>
+네이버 서치 어드바이저 <a href="https://searchadvisor.naver.com/" target="_blank">https://searchadvisor.naver.com/</a>
 
 
 [English]
 
-1. Upload the plugin files to the /wp-content/plugins/mshop-mysite directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'MShop MySite' screen in WordPress
-3. Use the 'MShop MySite' menu screen to configure the plugin.
-4. After then, check your service site owner verification or website source in section.
-5. If you're running an ad, select the ad medium on the Conversion Tracking tab, enter the delivery ID and save it.
+1. You can install the MShop MySite plugin by searching for “MShop MySite” directly in the WordPress plugin dashboard, or by uploading the downloaded file to the /wp-content/plugins/mshop-mysite directory.
+2. Once installed, activate the MShop MySite plugin.
+3. Next, go to the MShop MySite menu to configure the plugin settings.
+4. To verify website ownership, select the platform (e.g., Google, Naver) and enter the HTML meta tag provided by the respective service, then click Save.
+5. If you are running advertising campaigns, navigate to the Conversion Tracking tab, select the relevant advertising platform, enter the ID or pixel value provided, and save the settings.
 
 
 <Get Website ownership HTML>
 
-Google Webmaster : https://www.google.com/webmasters
-Naver Webmaster : http://webmastertool.naver.com
+Goolge Search-Console <a href="https://search.google.com/search-console/" target="_blank">https://search.google.com/search-console/</a>
+Naver Serchadvidor <a href="https://searchadvisor.naver.com/" target="_blank">https://searchadvisor.naver.com/</a>
 
 
 == Screenshots ==
@@ -110,6 +111,9 @@ Naver Webmaster : http://webmastertool.naver.com
 Not yet.
 
 == Changelog ==
+
+= 1.1.10 =
+메뉴얼 링크 변경
 
 = 1.1.9 =
 Security Update

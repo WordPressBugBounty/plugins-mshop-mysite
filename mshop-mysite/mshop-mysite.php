@@ -3,7 +3,7 @@
 Plugin Name: 코드엠샵 마이사이트
 Plugin URI: 
 Description: 웹사이트 소유권인증, 광고 전환 기본 추적 기능을 쉽고 빠르게 이용할 수 있습니다.
-Version: 1.1.9
+Version: 1.1.10
 Author: CodeMShop
 Author URI: www.codemshop.com
 License: GPLv2 or later
@@ -20,7 +20,7 @@ if ( ! class_exists( 'MShop_Ownership_Verification' ) ) {
 		protected static $_instance = null;
 
 		protected $slug;
-		public $version = '1.1.9';
+		public $version = '1.1.10';
 		public $plugin_url;
 		public $plugin_path;
 		public function __construct() {
@@ -94,7 +94,7 @@ if ( ! class_exists( 'MShop_Ownership_Verification' ) ) {
 		public function plugin_action_links( $actions, $plugin_file, $plugin_data, $context ) {
 			if ( $this->slug == msov_get( $plugin_data, 'slug' ) ) {
 				$actions['settings'] = '<a href="' . admin_url( '/admin.php?page=mshop_ownership_verification' ) . '">설정</a>';
-				$actions['manual']   = '<a target="_blank" href="https://manual.codemshop.com/docs/my-site/">매뉴얼</a>';
+				$actions['manual']   = '<a target="_blank" href="https://www.codemshop.com/guide/docs/my-site/">매뉴얼</a>';
 			}
 
 			return $actions;
@@ -102,7 +102,7 @@ if ( ! class_exists( 'MShop_Ownership_Verification' ) ) {
 
 		public function plugin_row_meta( $plugin_meta, $plugin_file, $plugin_data, $status ) {
 			if ( $this->slug == msov_get( $plugin_data, 'slug' ) ) {
-				$plugin_meta[] = '<a target="_blank" href="https://manual.codemshop.com/docs/my-site/faq/">FAQ</a>';
+				$plugin_meta[] = '<a target="_blank" href="https://www.codemshop.com/guide/docs/my-site/faq/">FAQ</a>';
 				$plugin_meta[] = '<a target="_blank" href="https://wordpress.org/plugins/mshop-mysite/#reviews">별점응원하기</a>';
 				$plugin_meta[] = '<a target="_blank" href="https://wordpress.org/plugins/search/codemshop/">함께 사용하면 좋은 플러그인</a>';
 			}

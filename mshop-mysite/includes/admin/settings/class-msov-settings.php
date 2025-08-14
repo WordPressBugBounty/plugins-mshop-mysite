@@ -200,7 +200,7 @@ if ( ! class_exists( 'MSOV_Settings' ) ) :
 				jQuery(document).ready(function ( $ ) {
 					$(this).trigger('mshop-setting-manager', ['mshop-setting-wrapper', '100', <?php echo json_encode( MSSHelper::get_settings( $settings ) ); ?>, null, null]);
                     $( '.ui.top.attached .manual_link' ).off( 'click' ).on( 'click', function () {
-                        window.open( 'https://manual.codemshop.com/docs/my-site/', '_blank' );
+                        window.open( 'https://www.codemshop.com/guide/docs/my-site/', '_blank' );
                         e.preventDefault();
                         e.stopPropagation();
                     } )

@@ -3,7 +3,7 @@
 Plugin Name: 코드엠샵 마이사이트
 Plugin URI: 
 Description: 웹사이트 소유권인증, 광고 전환 기본 추적 기능을 쉽고 빠르게 이용할 수 있습니다.
-Version: 1.1.10
+Version: 1.1.11
 Author: CodeMShop
 Author URI: www.codemshop.com
 License: GPLv2 or later
@@ -20,7 +20,7 @@ if ( ! class_exists( 'MShop_Ownership_Verification' ) ) {
 		protected static $_instance = null;
 
 		protected $slug;
-		public $version = '1.1.10';
+		public $version = '1.1.11';
 		public $plugin_url;
 		public $plugin_path;
 		public function __construct() {

@@ -1,14 +1,14 @@
-# Copyright (C) 2025 
+# Copyright (C) 2026 
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version: mshop-mysite 1.1.10\n"
+"Project-Id-Version: mshop-mysite 1.1.11\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mshop-mysite\n"
-"POT-Creation-Date: 2025-08-14 00:36:14+00:00\n"
+"POT-Creation-Date: 2026-01-05 00:54:41+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: CodeM\n"
 "Poedit: \n"
@@ -138,6 +138,6 @@ msgstr ""
 msgid "매뉴얼"
 msgstr ""
 
-#: includes/utility/WPUtil.php:28
+#: includes/utility/WPUtil.php:33
 msgid "Guest"
 msgstr ""

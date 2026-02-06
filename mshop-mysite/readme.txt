@@ -3,8 +3,8 @@ Contributors: Codemstory
 Donate link: http://www.codemshop.com/
 Tags: 웹사이트소유권인증, 구글 네이버 광고 전환 추적, 네이버 검색등록, 구글 검색 등록, 페이스북 픽셀
 Requires at least: 4.6.0
-Tested up to: 6.8
-Stable tag: 1.1.10
+Tested up to: 6.9
+Stable tag: 1.1.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -111,6 +111,9 @@ Naver Serchadvidor <a href="https://searchadvisor.naver.com/" target="_blank">ht
 Not yet.
 
 == Changelog ==
+
+= 1.1.11 =
+워드프레스 지원 버전 업데이트
 
 = 1.1.10 =
 메뉴얼 링크 변경
